@@ -9,8 +9,19 @@ div, h1, h2, p {
     color: white;
 }
 
+h2 {
+    width: 100%;
+    background-color: #0a3858;
+    text-align: center;
+    line-height:normal;
+}
+
 p {
     font-size: 20px;
+}
+
+.material-icons {
+    color: black;
 }
 
 /* NAV and FOOTER */
@@ -73,6 +84,7 @@ footer div:hover {
     width: 50%;
     background-color: #0a3858;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .description img {
@@ -84,3 +96,64 @@ footer div:hover {
 }
 
 /* BODY */
+
+.favorite, .other {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fee682;
+
+    width: 100%;
+    height: auto;
+
+}
+
+.favorite div {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 20px;
+    background-image: url("project-img.jpg");
+}
+
+.other div {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    background-image: url("project-img.jpg");
+}
+
+.favorite div p {
+    position: absolute;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    bottom: 0px;
+    height: 20px;
+}
+
+.other div p {
+    position: absolute;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    bottom: 0px;
+    height: 20px;
+
+}
+
+/* CONTACT */
+
+.contact {
+    display: inline-flex;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+
+
