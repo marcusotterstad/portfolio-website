@@ -1,0 +1,32 @@
+Things to include:
+1.       Table of contents
+2.       Current resume
+3.       Projects/work samples
+4.       Awards/honors or any relevant certifications you have
+5.       Letters of reference
+
+---------------------------------------------------------------
+
+NAV
+Projects
+Resume
+References
+
+HEAD
+Website title
+Picture
+Description
+Background image
+
+BODY
+Resume
+3 Main projects
+More projects sorted by language
+
+Contact
+Picture to right of contact
+
+FOOTER
+Projects
+Resume
+References
