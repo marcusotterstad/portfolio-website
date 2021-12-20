@@ -1,8 +1,9 @@
 /* UNIVERSAL DECLARATIONS */
-
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:wght@300&family=Source+Code+Pro:ital,wght@0,400;1,500&display=swap');
 body {
     background-color: #000d20;
     font-weight: bold;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 div, h1, h2, p {
@@ -11,7 +12,11 @@ div, h1, h2, p {
 
 h2 {
     width: 100%;
+    height: 27px;
     background-color: #0a3858;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     line-height:normal;
 }
@@ -95,7 +100,11 @@ footer div:hover {
     margin: 0 auto;
 }
 
-/* BODY */
+/* MAIN */
+
+main {
+    margin: 40px 0px;
+}
 
 .favorite, .other {
     position: relative;
